@@ -18,3 +18,27 @@ Notation: {val1,val2,,,,,valn}
 
    ii)non-empty set()
    syntax:  setobj = {val1,val2,,,,,valn}
+
+   **set functions**
+   1)add()
+   syntax: setobj.add(value)
+
+   2)clear()
+   syntax: setobj.clear()
+
+   3)remove()
+   syntax: setobj.remove(value)
+
+   4)discard()
+   syntax:  setobj.discard(value)
+
+   5)pop()
+   syntax: setobj.pop()
+   This fuction delete last value of object
+
+   6)copy()
+   syntax: s1=s2.copy()
+
+   7)isdisjoint()
+   syntax: s1.disjoint(s2)
+   
