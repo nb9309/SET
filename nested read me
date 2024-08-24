@@ -1,0 +1,17 @@
+      Nested set
+
+CASE 1: set in set (not possible)
+-> output: Type error : unhasable type : 'set'
+
+CASE 2: list in set (not possible)
+-> Bescuse list is mutable but we can't change values of list because of set does'nt follow insertion order.
+-> Output: unhasable type : 'list'
+
+CASE 3: Tuple in Set (Possible)
+-> Reason: Tuple is immutable so we can't change values in tuple so it is not a problem to store in set.
+
+CASE 4: Set in list (possible)
+-> Reason: We can access every value in the list, and we change values in the set using set operators.
+
+CASE 5: Set in tuple (possible)
+-> Reason: We ca access values in tuple by indexing, and can change set values using set operations.
